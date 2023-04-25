@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        fieldset{
+            border-radius: 10px;
+            padding: 5px; 
+            width: 300px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        main{
+            margin: auto;
+            border: 1px solid black;
+            width:60px ;
+        }
+      
+    </style>
+
+
+</head>
+<body>
+    <main> 
+        <div>
+            <fieldset>
+        <legend>Fale Conosco</legend>
+            <div>
+                <form accept="" method="get">
+                    <div>
+                        <section>
+                            Nome:* <input type="text"   id="Nome" name="user" maxlength="10" size="25" placeholder="Digite seu nome"><br><br>
+                        </section>
+                        <section>
+                            E-mail:* <input type="email" id="E-mail" name="pass"  size="25" placeholder="Digite seu email"><br><br>
+                        </section>
+
+                        <section>
+                            <label for="">Selecione um assunto</label>
+                            <select name="" id="">
+                                <option value="">Selecione</option>
+                            </select><br><br>
+                        </section>
+                        <section>
+                        <label>Texto:</label>
+                        <textarea name="Texto" id="Texto" cols="28" rows="1"></textarea>
+                        </section><br>
+                        <section>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Cancelar">
+                        </section>
+                        <a href="/ques2.html">ques2</a>
+                    </div>
+                </form>
+            </div>
+    </fieldset>
+    </main>
+</body>
+</html>
